@@ -1,4 +1,44 @@
 <!-- Añade la estructura básica de una página web HTML5 -->
+<!DOCTYPE html>
+<html lang="es-ES">
+ <head>
+ <meta charset="utf-8">
+ <title>Ejemplo de 2 párrafos</title>
+ <style>			
+			.subrayado{text-decoration:underline}
+			p {font-size:20px;color:#444}
+		</style>
+ </head>
+ 
+ <body>
+ <h1>Anatomía de un blog en HTML5</h1>
+ <p>
+ Una de las principales características de HTML5 son los <strong>elementos de marcado 
+ con significado semántico</strong>. 
+Por nombrar algunos: <em><span class="subrayado">header, footer, main, nav o article<span></em>. El significado semántico de estos elementos supone importantes ventajas. 
+Por ejemplo, a cada uno se le asigna un role ARIA (Accessible Rich Internet Application) específico por defecto. 
+Esto ayuda a mejorar la accesibilidad a nuestra página web para los que utilicen alguna tecnología de asistencia en la navegación 
+como pueden ser los lectores de pantalla (screen readers).</p>
+ <p>
+ En este artículo voy a hacer un repaso de como debería ser la estructura de
+ un blog en HTML5 intentando abarcar los elementos 
+característicos de un blog estándar: navegación, post, fechas, comentarios, columna 
+lateral, etc. Me he inspirado en el artículo 
+de <em>Bruce Lawson Designing a blog with HTML5</em>, y he añadido información más actualizada.
+ Ponte cómodo que empezamos.
+ </p>
+ <h2>DOCTYPE</h2>
+ <p>
+ Al comienzo de un documento HTML5 es imprescindible poner la simple y sencilla línea:
+No hacerlo hará que el navegador analice la página en quirks mode, una técnica utilizada por los navegadores modernos para emular a 
+navegadores viejos y asegurar que viejas webs se vean bien. 
+ </p>
+ <p>
+ ¿Imáginas una web moderna en HTML5 analizada como si fuese una web antigua? Estás avisado.
+No te olvides nunca de poner el &lt;!DOCTYPE html&gt; 
+ </p>
+ </body>
+</html>
 
 
 
@@ -22,7 +62,6 @@ de Bruce Lawson Designing a blog with HTML5, y he añadido información más act
 <!-- Añade estos dos párrafos -->
 <!-- 
 Al comienzo de un documento HTML5 es imprescindible poner la simple y sencilla línea:
-
 No hacerlo hará que el navegador analice la página en quirks mode, una técnica utilizada por los navegadores modernos para emular a 
 navegadores viejos y asegurar que viejas webs se vean bien. 
 ¿Imáginas una web moderna en HTML5 analizada como si fuese una web antigua? Estás avisado.
