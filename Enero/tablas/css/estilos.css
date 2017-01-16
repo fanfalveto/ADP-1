@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+*	{
+		font-family: 'Quicksand', sans-serif;
+		font-size: 15px;		
+	}
+body {margin:0}
+h1 {font-size:1.8em;margin-top:0}
+/*Para conseguir un borde único se utiliza el border-collapse:collapse*/
+table, td {
+			border:1px solid;
+			border-collapse:collapse;
+		}
+/*Espacio entre celdas con border collapse no funciona*/
+table{
+		border-spacing:15px;
+		text-align:right;
+		}
+/*Ancho de las celdas para que todas sean iguales*/
+td {min-width:70px}
+table h2{text-align:center}
+#container{
+			width:75%;
+			margin:auto;
+			background-color:#9e9e9e;
+			padding:3%;
+			}
+
+
+
+
+
+
+
+
+
