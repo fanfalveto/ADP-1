@@ -1,0 +1,12 @@
+#wrapper {width:90%;margin:auto}
+#header {background-color:pink}
+#logo {
+	background-color:blue;
+	width:20%;
+	float:left;
+	}
+#nav {
+	background-color:red;
+	width:80%;
+	float:left
+	}
