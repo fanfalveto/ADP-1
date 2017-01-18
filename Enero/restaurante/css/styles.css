@@ -1,5 +1,7 @@
 #wrapper {width:90%;margin:auto}
-#header {background-color:pink}
+#header {
+	background-color:pink;
+	height:90px;}
 #logo {
 	background-color:blue;
 	width:20%;
@@ -8,5 +10,27 @@
 #nav {
 	background-color:red;
 	width:80%;
-	float:left
+	float:right;	
 	}
+#nav ul {list-style-type:none}
+#nav li {float:left;}
+#nav a {
+		display:block;
+		background-color:yellow;
+		min-width:80px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
