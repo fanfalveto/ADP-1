@@ -1,0 +1,19 @@
+1.-Importa y crea regla para todos los elementos tengan el tipo de letra 
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
+
+2.-Color del footer y los enlaces: #6cc091
+3.-Color rosa: pink
+4.-Crea regla para todas las cabeceras con el siguiente formato.
+ {
+		color: #555;
+		font-weight: 400;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
+	}
+5.-Haz que los enlaces no tengan subrayado al passar el ratón por encima
+6.-Crea regla para todas las etiquetas p con el siguiente formato: {margin: 0 0 2em 0;color: #9a9a9a;}
+7.- Crea regla para todas las cabeceras de tipo 3 con el siguiente formato:
+{
+		font-size: 1.85em;
+		font-weight: 300;
+	}
